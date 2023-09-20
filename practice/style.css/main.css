@@ -1,34 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
+/* SHODIYA */
 .container {
-    display: inline-flex;
-    height: 582.391px;
-    padding: 186.188px 40px 186.203px 856.672px;
-    justify-content: flex-end;
-    align-items: center;
-    flex-shrink:0;
-    background-color:red;
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.protect-title{
-    width:100%;
-    color: #000;
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 56px; /* 100% */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  width: 100%;
+  background-color: black;
 }
 
-.protect-text {
-    width: 543px;
-    color: #000;
+.header-nav_logo,
+.footer-nav_logo {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: white;
+  text-decoration: dotted;
+}
+
+.header-nav_navigation {
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Roboto";
+
+}
+
+.navigation-links {
+  font-family: 400;
+  color: white;
+  font-size: 18px;
+  padding: 22px 15px;
+  transition: 0.4s;
+}
+
+.navigation-links:hover {
+  background: grey;
+  cursor: pointer;
+}
+.log {
+  color: white;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.get {
+  padding: 10px 12px;
+  margin-top: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  transition: 0.4s;
+}
+.get:hover {
+  background: grey;
+  cursor: pointer;
+}
+/* BANNER  */
+.banner {
+  background-image: url(../image/Rectangle.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 0 20px;
+
+}
+
+.p {
+    margin-top: 50px;
+    color: #EFEFEF;
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 26.4px; /* 120% */
+    line-height: 21.6px;
+    text-transform: uppercase;
+  
+}
+.h {
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72px; 
 }
